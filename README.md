@@ -2,7 +2,7 @@
 This repository contains a complete Physical Design (PD) automation flow for Synopsys ICC2 / Fusion Compiler using TCL scripting.
 The flow covers all major stages from netlist import to final routing, implemented in a modular way for easy execution, debugging, and reuse.
 
-🚀 Overview
+Overview
 
 The goal of this project is to provide a step-by-step automated PD flow that can be used by:
 
@@ -16,7 +16,7 @@ Anyone learning ICC2 flow scripting
 
 Each stage is separated into individual scripts so you can run, stop, and analyze any step independently.
 
-🏗️ Flow Stages
+Flow Stages
 
 The complete implementation flow is structured into eight scripts:
 
@@ -29,7 +29,7 @@ Stage	Description	Script
 6️⃣ CTS	Clock Tree Synthesis	cts.tcl
 7️⃣ Post-CTS	Timing optimization	post_cts.tcl
 8️⃣ Routing	Global & detailed routing	route.tcl
-🧠 Flow Logic
+Flow Logic
 
 The flow is built on these design principles:
 
@@ -72,7 +72,7 @@ You can run individual stages if required, e.g.:
 
 icc_shell -f place.tcl
 
-📂 Directory Structure
+Directory Structure
 VLSI-PD-Automation/
 ├── README.md
 ├── import.tcl
@@ -87,7 +87,7 @@ VLSI-PD-Automation/
 
 (Optional: Add logs/, reports/, scripts/ folders)
 
-🛠 Requirements
+Requirements
 
 Synopsys ICC2 / Fusion Compiler
 
@@ -101,7 +101,7 @@ SDC constraints
 
 Linux environment
 
-📝 Author
+Author
 
 Franklin Moses
 VLSI Physical Design Engineer
